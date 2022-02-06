@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Playfair+Display:ital@1&family=Poppins:wght@400;500;700&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.backstyle {
+  background-color: #3a3b3c;
+  height: 150px;
+  background: linear-gradient(rgba(87, 85, 85, 0.1), rgba(54, 54, 54, 0.7)), url(./background.jpg);;
+}
+
+.backstyle .container .info img {
+  border-radius: 10px;
+}
+
+.container .info {
+  position: absolute;
+  left: 670px;
+  width: 200px;
+  text-align: center;
+  top: 50px;
+}
+
+.container .info .text {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.about {
+  width: 1200px;
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 320px;
+  left: 170px;
+  padding: 5px;
+  font-size: large;
+}
+
+.about h1 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.about .extra .work{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.about .extra .work p{
+    margin-left: 5px;
+}
+
+.container .extra .more button{
+    padding: 5px;
+    font-family: sans-serif;
+    position: relative;
+    right: 550px;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
